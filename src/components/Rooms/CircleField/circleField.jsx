@@ -9,23 +9,23 @@ import CircleImg from '/textures/circle.png'
 
 // Параметры генерации точек
 const POINTS_CONFIG = {
-  count: 200,        // Количество точек по каждой оси
-  step: 0.19,        // Расстояние между точками
-  frequency: 0.03,   // Частота волны
-  amplitude: 2,      // Амплитуда волны
-  timeMultiplier: 30 // Множитель времени для анимации
+  count: 100,        // Количество точек по каждой оси
+  step: 0.2,        // Расстояние между точками
+  frequency: 0.01,   // Частота волны
+  amplitude: 0.5,      // Амплитуда волны
+  timeMultiplier: 20 // Множитель времени для анимации
 }
 
 // Параметры вращения
 const ROTATION_CONFIG = {
-  speed: 0.21 // Скорость вращения поля точек
+  speed: 0.01 // Скорость вращения поля точек
 }
 
 // Параметры материала точек
 const POINTS_MATERIAL = {
   color: 0x00AAFF,
-  size: 0.5,
-  alphaTest: 0.5,
+  size: 0.3,
+  alphaTest: 0.1,
   opacity: 1.0
 }
 

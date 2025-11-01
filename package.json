@@ -1,8 +1,10 @@
 {
-  "name": "reactthreejs",
+  "name": "threejs-react-portfolio",
+  "description": "Интерактивное 3D портфолио с демонстрацией навыков работы с WebGL, Three.js и React Three Fiber",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
